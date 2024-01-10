@@ -7,7 +7,7 @@ __version__="0.0.0"
 
 REPO_NAME = "Wine_Quality_Prediction"
 AUTHOR_USER_NAME = "tanna-adi"
-SRC_REPO = "mlproject"
+SRC_REPO = "Wine_Quality_Prediction"
 AUTHOR_EMAIL = "adityatanna99@gmail.com"
 
 setuptools.setup(

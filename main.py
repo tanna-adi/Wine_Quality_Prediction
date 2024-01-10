@@ -1,1 +1,1 @@
-from src.Wine_Quality_Prediction.config import configuration
+from Wine_Quality_Prediction import logger

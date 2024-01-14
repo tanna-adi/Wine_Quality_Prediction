@@ -7,7 +7,7 @@ class DataValidation:
     def __init__(self,config: DataValidationConfig):
         self.config = config
 
-    def validdate_all_columns(self)-> bool:
+    def validate_all_columns(self)-> bool:
         try:
             validate_status = None
             

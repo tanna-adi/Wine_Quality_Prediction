@@ -4,7 +4,7 @@ import zipfile
 from pathlib import Path
 from Wine_Quality_Prediction import logger
 from Wine_Quality_Prediction.utils.common import get_size
-from Wine_Quality_Prediction.config_entity import DataIngestionConfig
+from Wine_Quality_Prediction.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self,config: DataIngestionConfig):

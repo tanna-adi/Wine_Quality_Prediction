@@ -1,6 +1,6 @@
 from Wine_Quality_Prediction.constants import *
 from Wine_Quality_Prediction.utils.common import read_yaml, create_directories
-from Wine_Quality_Prediction import (DataIngestionConfig)
+from Wine_Quality_Prediction.entity.config_entity import (DataIngestionConfig)
 
 class ConfigurationManager:
     def __init__(
